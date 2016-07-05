@@ -1,4 +1,6 @@
-  @import 'https://fonts.googleapis.com/css?family=Actor|Amiri|Bowlby+One+SC|Cardo|Catamaran|Caveat|Comfortaa|Gudea|Lato|NTR|Open+Sans|Ovo|Permanent+Marker|Rosario|Scheherazade|Suranna|Waiting+for+the+Sunrise|Zeyada';
+  @import 'https://fonts.googleapis.com/css?family=Amiri|Catamaran|Gudea|Lato|Open+Sans|Ovo|Rosario|Scheherazade|Suranna';
+  @import 'https://fonts.googleapis.com/css?family=Andika|Archivo+Black|Bevan|Halant|Secular+One';
+
   body {
       position: relative;
       font-family: 'Gudea', sans-serif;
@@ -6,6 +8,9 @@
   }
   p {
   	text-align:justify;
+  }
+  h1 {
+    font-family:'Archivo Black', sans-serif;
   }
   #section1 {
   	padding-top:50px;
@@ -25,7 +30,7 @@
   }
 .navbar-inverse .navbar-nav>.active>a {
 	color: #333!important;
-    background-color: #ddd!important;
+  background-color: #ddd!important;
 }
 .navbar-inverse {
     background-color: #ddd!important;
@@ -38,8 +43,8 @@
   width:100%;
 }
 .container-fluid {
-	padding-left:0px!important;
-	padding-right:0px!important;
+  padding-left:0px!important;
+  padding-right:0px!important;
 }
 .infoContext {
 	margin-top:25px;
@@ -48,4 +53,22 @@
 }
 .byline {
 	font-size:18px;
+}
+a:focus, a:hover {
+    color: #23527c;
+    text-decoration: none!important;
+}
+/*READ MORE*/
+
+.morecontent span {
+    display: none;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.morelink {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    padding-top:30px;
 }
