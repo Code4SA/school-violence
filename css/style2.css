@@ -1,0 +1,51 @@
+  @import 'https://fonts.googleapis.com/css?family=Actor|Amiri|Bowlby+One+SC|Cardo|Catamaran|Caveat|Comfortaa|Gudea|Lato|NTR|Open+Sans|Ovo|Permanent+Marker|Rosario|Scheherazade|Suranna|Waiting+for+the+Sunrise|Zeyada';
+  body {
+      position: relative;
+      font-family: 'Gudea', sans-serif;
+      font-size:14px;
+  }
+  p {
+  	text-align:justify;
+  }
+  #section1 {
+  	padding-top:50px;
+  	color: #333;
+  }
+  #section2 {
+  	padding-top:50px;
+  	color: #333; 
+  }
+  #section3 {
+  	padding-top:50px;
+  	color: #333; 
+  }
+  #section4 {
+  	padding-top:50px;
+  	color: #333; 
+  }
+.navbar-inverse .navbar-nav>.active>a {
+	color: #333!important;
+    background-color: #ddd!important;
+}
+.navbar-inverse {
+    background-color: #ddd!important;
+    border-color: #ccc!important;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.leadImg img {
+  width:100%;
+}
+.container-fluid {
+	padding-left:0px!important;
+	padding-right:0px!important;
+}
+.infoContext {
+	margin-top:25px;
+  background-color:#efefef;
+  padding:20px;
+}
+.byline {
+	font-size:18px;
+}

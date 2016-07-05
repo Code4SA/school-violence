@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href="css/lity.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!-- LITY JS -->
+  <script src="js/lity.js"></script>
+  <script>
+        $(function() {
+            $('a').each(function() {
+                var el = $(this), href = el.attr('href');
+
+                if (href.length > 97) {
+                    href = href.substr(0, 97) + '...';
+                }
+
+                el.text(href);
+            })
+        });
+    </script>
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand uppercase" href="#">School Violence</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#section1">Long Commute to Freedom</a></li>
+          <li><a href="#section2">Section 2</a></li>
+          <li><a href="#section3">Section 3</a></li>
+          <li><a href="#section4">Section 4</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<div id="section1" class="container-fluid">
+  
+  <!-- Fullwidth img -->
+  <div class="leadImg" class="col-xs-12"><img src="img/man-person-school-head.jpg" title="View" alt="View" /></div>
+  <!-- // -->
+
+  <div class="content col-xs-12 col-md-8 col-md-offset-2">
+
+  <p class="infoContext">Aliquam vel condimentum arcu. Quisque vitae eros odio. Nulla tristique diam urna, blandit varius neque ultricies in. Nullam lobortis sollicitudin felis, a sagittis libero semper nec. Donec feugiat lorem tortor, ut rutrum augue tincidunt in. Cras porttitor facilisis efficitur. Praesent ut nisl odio. Donec accumsan enim non pharetra lobortis.</p>
+
+  <h1 class="uppercase">Long commute to Freedom</h1>
+  <p class="byline">by DANIELA LEPIZ and NAME SURNAME</p>
+
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sollicitudin tortor, eu lacinia orci. In id faucibus ex. Sed volutpat varius ligula ut faucibus. Suspendisse ut pellentesque purus. Nulla non lacus at nisi iaculis pharetra. Aliquam tempus ante sed nibh placerat commodo. Integer sit amet nulla sagittis orci malesuada tristique ac ut quam. Fusce placerat ultricies erat a tincidunt. Aliquam erat volutpat. Aliquam erat volutpat. Vivamus blandit tempor sem at maximus.</p>
+  <p>Curabitur vulputate turpis pellentesque orci iaculis, ut molestie neque sagittis. Cras purus libero, feugiat ut semper sed, pellentesque eget leo. Suspendisse rutrum, ligula at dignissim ornare, sem lectus elementum dui, nec facilisis turpis sapien id nisi. Integer vel dui massa. Aliquam vel justo in risus egestas euismod. In mollis ante vitae risus eleifend efficitur sit amet et eros. Aenean ipsum nisl, malesuada non tincidunt ac, egestas sed dolor. Nullam sagittis nibh pharetra ullamcorper pretium. Nunc varius augue non luctus rutrum. Nunc vel fringilla purus. Mauris auctor dapibus ultrices. Fusce auctor volutpat laoreet. Suspendisse viverra vitae lorem non sollicitudin.</p>
+
+  </div>
+</div>
+
+<div id="section2" class="container-fluid">
+  <div class="content col-xs-12 col-md-8 col-md-offset-2">
+    <h1 class="uppercase">Section 2</h1>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+    <!-- 16:9 aspect ratio -->
+    <p class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="https://www.youtube.com/embed/yAoLSRbwxL8"></iframe></p>
+    <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+</div>
+
+<div id="section3" class="container-fluid">
+  <div class="content col-xs-12 col-md-8 col-md-offset-2">
+  <h1 class="uppercase">Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  </div>
+</div>
+
+<div id="section4" class="container-fluid">
+  <div class="content col-xs-12 col-md-8 col-md-offset-2">
+  <h1 class="uppercase">Section 4</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p><a href="#readmore" data-lity></a></p>
+  </div>
+  
+
+<div id="readmore" class="lity-hide col-xs-12 col-md-8 col-md-offset-2">
+    <h1 class="whitecopy">Test</h1>
+    <p class="whitecopy">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas velit velit, sodales vel urna at, semper tincidunt tellus. Aliquam vitae lacus in augue venenatis sodales quis eu magna. Ut vel luctus augue. Quisque non ex sit amet felis eleifend lacinia. Nunc aliquam id sapien quis feugiat. Phasellus pretium consectetur felis, vel pretium neque dignissim sed. Aliquam vel augue elementum, suscipit ligula sit amet, tincidunt libero. Morbi eleifend, urna ac volutpat rhoncus, sapien turpis accumsan purus, in ornare sapien arcu sed quam. Maecenas sapien quam, consequat id lacinia nec, lacinia maximus purus. Duis arcu leo, semper quis metus nec, sagittis tempus massa. Proin nec cursus velit.</p>
+</div>
+
+
+</div>
+
+</body>
+</html>
+
