@@ -33,8 +33,8 @@
   background-color: #ddd!important;
 }
 .navbar-inverse {
-    background-color: #ddd!important;
-    border-color: #ccc!important;
+    background-color: #eee!important;
+    border-color: #ddd!important;
 }
 .uppercase {
 	text-transform: uppercase;
@@ -58,6 +58,22 @@ a:focus, a:hover {
     color: #23527c;
     text-decoration: none!important;
 }
+.navbar-inverse .navbar-toggle {
+    border-color: #999!important;
+}
+.navbar-inverse .navbar-brand {
+    color: #999!important;
+}
+.navbar-brand {
+  padding: 15px 25px!important;
+}
+.navbar-toggle {
+  margin-right: 25px!important;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #999!important;
+}
+
 /*READ MORE*/
 
 .morecontent span {
